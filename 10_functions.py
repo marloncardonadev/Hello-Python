@@ -28,12 +28,14 @@ def print_name(name, surname):
 
 print_name("Marlon", "Cardona")
 
-def print_name_with_default(name, surname, alias):
+def print_name_with_default(name, surname, alias = "Sin alias"):
     print(f"{name} {surname} {alias}")
 
+print_name_with_default("Marlon", "Cardona")
 print_name_with_default("Marlon", "Cardona", "MarlonDev")
 
 def print_texts(*texts):
+    print(type(texts))
     for text in texts:
         print(text.upper())
 
