@@ -54,4 +54,3 @@ end_timedelta = timedelta(300, 100, 100, weeks = 13)
 
 print(end_timedelta - init_timedelta)
 print(end_timedelta + init_timedelta)
-print(end_timedelta / init_timedelta)
